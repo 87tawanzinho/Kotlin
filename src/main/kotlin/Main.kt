@@ -1,7 +1,8 @@
-class Pessoa {
+class Pessoa(val anoNascimento: Int) {
 
 }
 
 fun main() {
-    println("Hello World")
+    var pessoa: Pessoa = Pessoa(1996)
 }
+
